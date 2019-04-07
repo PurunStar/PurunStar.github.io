@@ -1,0 +1,105 @@
+body {
+    margin: 0px; 
+    font-size: 18px;
+    color: #FFF;
+}
+#box {
+    position: relative;
+    height: auto;
+    margin: auto; 
+    background-color: rgb(250, 250, 250);
+}
+#top {
+    background-color: white;
+    height: 90px;
+    position: relative;
+}
+#main {
+    background-color:white;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+#bottom {
+    background-color: rgb(94, 94, 94);
+    height: 500px;
+    width : 100%;
+    position: relative;
+    clear: both;
+    float: left; 
+}
+.login-form {
+    overflow: hidden;
+    background-color: white;
+}
+
+.login-form a {
+    font-weight: bold;
+    float: right;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(110, 110, 110);
+}
+
+.topnav a {
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.column {
+    float: left;
+    padding: 10px;
+}
+/* Left and right column */
+.column.side {
+    height:100%;
+    width: 25%;
+}
+/* Middle column */
+.column.middle {
+    height:80%;
+    width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+h3{
+    color:black;
+}
+h2{
+    color:black;
+}
+h1{
+    color:black;
+}
